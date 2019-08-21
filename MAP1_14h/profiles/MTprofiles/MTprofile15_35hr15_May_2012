@@ -1,0 +1,144 @@
+this is just a test
+{Undefined function 'this' for input arguments of type 'char'.
+} 
+diary off
+{Undefined function 'multiThreshold' for input arguments of type 'struct'.
+
+Error in
+<a href="matlab:helpUtils.errorDocCallback('guidemfile/@(hObject,eventdata)multiThreshold(''pushbuttonParams_Callback'',hObject,eventdata,guidata(hObject))', 'C:\Program Files\MATLAB\R2012a\toolbox\matlab\guide\guidemfile.m', 0)" style="font-weight:bold">guidemfile/@(hObject,eventdata)multiThreshold('pushbuttonParams_Callback',hObject,eventdata,guidata(hObject))</a>
+
+} 
+
+ %%%%
+
+MAPparamsNormal
+
+
+inputStimulusParams:
+sampleRate=	48000
+segmentDuration=	0.01
+
+OMEParams:
+externalResonanceFilters=	2 x 4 matrix
+OMEstapesHPcutoff=	1000
+stapesScalar=	4.5e-08
+rateToAttenuationFactor=	0.1
+rateToAttenuationFactorProb=	0.1
+ARtau=	0.25
+ARdelay=	0.01
+ARrateThreshold=	40
+
+DRNLParams:
+referenceDisplacement=	1e-09
+a=	 0...   [21 element array]
+c=	0.25
+ctBMdB=	15
+nonlinOrder=	3
+nonlinCFs=	 250...   [21 element array]
+nlBWp=	0.14
+nlBWq=	180
+g=	50
+linOrder=	3
+linCFp=	0.62
+linCFq=	266
+linBWq=	235
+linBWp=	0.1
+MOCdelay=	0.01
+minMOCattenuationdB=	-35
+MOCtau1=	0.1
+rateToAttenuationFactor1=	1700
+MOCtau2=	0.3
+rateToAttenuationFactor2=	0
+MOCtau3=	20
+rateToAttenuationFactor3=	0
+MOCTotThreshold=	0
+MOCtauProb1=	0.1
+rateToAttenuationFactorProb1=	1
+MOCtauProb2=	0.25
+rateToAttenuationFactorProb2=	0
+MOCtauProb3=	1
+rateToAttenuationFactorProb3=	0
+MOCrateThresholdProb=	80
+fixedMOCdrive=	0	0	0
+DRNLOnly=	'no'
+nlBWs=	 215...   [21 element array]
+linCFs=	 421...   [21 element array]
+linBWs=	 260...   [21 element array]
+
+IHC_cilia_RPParams:
+tc=	0.00012
+C=	0.6
+u0=	3e-10
+s0=	4.5e-08
+u1=	1e-09
+s1=	1e-09
+Gmax=	6e-09
+Ga=	8e-10
+Cab=	5e-12
+Et=	0.1
+Gk=	2.1e-08
+Ek=	-0.08
+Rpc=	0.04
+
+IHCpreSynapseParams:
+GmaxCa=	1.4e-08
+ECa=	0.066
+beta=	400
+gamma=	100
+tauM=	5e-05
+power=	3
+z=	45000000000000
+tauCa=	6e-05	0.0002
+
+AN_IHCsynapseParams:
+numFibers=	100
+refractory_period=	0.00075
+TWdelay=	0.004
+spikesTargetSampleRate=	24000
+M=	15
+y=	2
+x=	100
+l=	20
+r=	100
+CcodeSpeedUp=	1
+
+MacGregorMultiParams:
+nNeuronsPerBF=	10
+type=	'chopper cell'
+fibersPerNeuron=	10
+dendriteLPfreq=	50
+currentPerSpike=	2.9e-08
+Cap=	1.67e-08
+tauM=	0.002
+Ek=	-0.01
+dGkSpike=	0.000133
+tauGk=	0.0005
+Th0=	0.01
+c=	0
+tauTh=	0.02
+Er=	-0.06
+Eb=	0.06
+PSTHbinWidth=	0.0001
+
+MacGregorParams:
+type=	'chopper cell'
+fibersPerNeuron=	10
+dendriteLPfreq=	100
+currentPerSpike=	4e-08
+Cap=	1.67e-08
+tauM=	0.002
+Ek=	-0.01
+dGkSpike=	0.000133
+tauGk=	0.0005
+Th0=	0.01
+c=	0
+tauTh=	0.02
+Er=	-0.06
+Eb=	0.06
+debugging=	0
+wideband=	0
+
+ Local parameter changes:
+ MacGregorParams.currentPerSpike=40e-9;  
+DRNLParams.a=0;
+diary off

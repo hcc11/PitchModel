@@ -1,0 +1,170 @@
+******** multithreshold version 1.46
+
+Name:	nemo 
+paradigm:	absThreshold_16 
+Ear:	left 
+method:	oneIntervalUpDown/ withCue 
+date:	28-Jan-2014 15_16_28 
+
+thresholds
+targetFrequency/	targetDuration  	
+	0.016
+2000	41.702
+
+stimulusParameters:
+sampleRate=	44100
+targetType=	'tone'
+targetFrequency=	2000
+targetDuration=	0.016
+targetLevel=	30
+gapDuration=	0
+maskerType=	'tone'
+maskerRelativeFrequency=	1
+maskerDuration=	0
+maskerLevel=	-50
+backgroundType=	'none'
+backgroundTypeValue=	1
+backgroundLevel=	-100
+includeCue=	1
+stimulusDelay=	0.3
+rampDuration=	0.004
+absThresholds=	
+numOHIOtones=	1
+WRVname=	'targetLevel'
+WRVstartValues=	50
+WRVsteps=	10	2
+WRVlimits=	-30	110
+WRVinitialStep=	10
+WRVsmallStep=	2
+calibrationdB=	7
+catchTrialRates=	0.2	0.1	2
+catchTrialBaseRate=	0.1
+catchTrialRate=	0.2
+catchTrialTimeConstant=	2
+dt=	2.2676e-05
+jitterStartdB=	10
+restoreCalibration=	7
+messageString=	 cell array
+cueTestDifference=	10
+subjectText=	 cell array
+testTargetBegins=	0.3
+testTargetEnds=	0.316
+musicLeveldB=	0
+subjectSampleRate=	44100
+MAPSampleRate=	
+stimulusDelayVariability=	0
+maskerPhase=	'sin'
+maskerNoiseBW=	1000
+notchedNoiseBW=	0
+targetPhase=	'sin'
+OHIOnTones=	1
+AFCsilenceDuration=	0.5
+instructions=	 cell array
+targetLevels=	30
+
+experiment:
+name=	'nemo'
+date=	'28-Jan-2014 15_16_28'
+paradigm=	'absThreshold_16'
+ear=	'left'
+headphonesUsed=	1
+singleShot=	0
+randomize=	''
+maxTrials=	20
+MacGThreshold=	
+resetCriterion=	
+runResetCriterion=	
+absThresholds=	
+threshEstMethod=	'oneIntervalUpDown'
+functionEstMethod=	'logisticLS'
+psyBinWidth=	1
+maxLogisticK=	2
+numPossLogisticK=	100
+possLogSlopes=	 0.01...   [100 element array]
+meanSearchStep=	0.25
+psyFunSlope=	1
+predictionLevels=	 -30...   [561 element array]
+buttonBoxType=	'square'
+buttonBoxStatus=	'not busy'
+status=	'runCompleted'
+stop=	0
+pleaseRepeat=	1
+justInitialized=	0
+MAPplot=	0
+saveData=	
+printTracks=	0
+msgFontSize=	10
+subjGUIfontSize=	14
+timeAtStart=	'15:16'
+minElapsed=	2.2548
+stopCriteria2IFC=	75	3	5
+clickToStimulusPause=	1
+singleIntervalMaxTrials=	20
+allowCatchTrials=	1
+maskerInUse=	0
+useGUIs=	1
+
+betweenRuns:
+variableName1=	'targetFrequency'
+variableList1=	2000
+variableName2=	'targetDuration'
+variableList2=	0.016
+var1Sequence=	2000
+var2Sequence=	0.016
+randomizeSequence=	'randomize within blocks'
+timeNow=	2014	1	28	15	16	28.978
+runNumber=	1
+thresholds=	41.702
+forceThresholds=	0
+observationCount=	21
+timesOfFirstReversals=	2
+bestThresholdTracks=	 cell array
+levelTracks=	 cell array
+responseTracks=	 cell array
+slopeKTracks=	
+gainTracks=	
+VminTracks=	
+bestGain=	0.0037649
+bestVMin=	9.1116
+bestPaMin=	38.7336
+bestLogisticM=	41.702
+bestLogisticK=	1.99
+psychometicFunction=	 cell array
+catchTrials=	3
+caughtOut=	0
+thresholds_mean=	41.052
+thresholds_median=	41.952
+resets=	0
+
+withinRuns:
+trialNumber=	21
+nowInPhase2=	1
+beginningOfPhase2=	2
+variableValue=	43.952
+direction=	'more difficult'
+peaks=	43.952	41.952	43.952	41.952	41.952	43.952
+troughs=	32.952	39.952	39.952	39.952	39.952	39.952
+levelList=	 52.952...   [21 element array]
+responseList=	 1...   [21 element array]
+meanEstTrack=	37.952	37.952	38.452	39.152	39.952	40.2377	40.202	40.3964	40.352	40.4975	40.7853	40.8751	40.8091	40.8853	40.827	40.8932	40.8409	40.8994	41.052
+meanLogisticEstTrack=	
+bestSlopeK=	
+bestGain=	
+bestVMin=	
+forceThreshold=	0
+catchTrial=	0
+caughtOut=	0
+catchTrialCount=	3
+wrongButton=	0
+babblePlaying=	
+thresholdEstimateTrack=	37.952	40.452	41.452	42.452	42.452	41.952	41.952	41.702	41.702	41.952	41.952	41.702	41.702	41.702	41.702	41.452	41.452	41.702	41.702
+thisIsRepeatTrial=	0
+levelsPhaseTwo=	 42.952...   [20 element array]
+responsesPhaseTwo=	 1...   [20 element array]
+
+
+thresholds
+targetFrequency/	targetDuration  	
+	0.016
+2000	41.702
+
